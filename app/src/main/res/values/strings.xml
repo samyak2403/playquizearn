@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">playquizearn</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="dely_ads">Step 1: Watch 20 Ads (with a delay between each ad)\n\Step 2: Install the App</string>
+    <string name="rewards">rewards</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="admob_banner_id">ca-app-pub-9845749769832734/8177868069</string>
+    <string name="admob_interstitial_id">ca-app-pub-9845749769832734/4897733067</string>
+    <string name="admob_app_id">ca-app-pub-9845749769832734~8867686098</string>
+    <string name="Rewarded_Ad">ca-app-pub-9845749769832734/4605007451</string>
+
+    <string name="scratch_card_with_a_delay_limit_of_5_between_each_scratch">Scratch Card (with a delay limit of 5 between each scratch)</string>
+    <string name="your_friend_gets_100_coins_on_sign_up_nand_you_get_100_coins_too_every_time">Your friend gets 100 coins on sign up \nand, you get 100 coins too every time!</string>
+    <string name="refer_and_earn">Refer and Earn</string>
+    <string name="scratch_card">Scratch Card</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="Terms_and_Conditions">By using the Bra Size Calculator app, you agree to the following terms and conditions:\n\n</string>
+
+    <string name="terms_conditions_title">Terms and Conditions</string>
+    <string name="terms_and_conditions">
+
+</string>
+
+
+    <string name="i_agree">I Agree</string>
+    <string name="cancel">Cancel</string>
+    <string name="agreed_message">You agreed to the terms and conditions.</string>
+    <string name="declined_message">You declined the terms and conditions.</string>
+
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_message">T
+</string>
+    <string name="terms_conditions_message" />
+    <string name="ca_app_pub_3940256099942544_8691691433">ca-app-pub-3940256099942544/8691691433</string>
+
+
+</resources>

@@ -1,0 +1,71 @@
+plugins {
+    alias(libs.plugins.android.application)
+    id 'com.google.gms.google-services'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.arrowwould.playquizearn'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.arrowwould.playquizearn"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding = true
+    }
+
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    implementation libs.gridlayout
+    implementation libs.navigation.fragment.ktx
+    implementation libs.navigation.ui.ktx
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+
+    implementation 'com.airbnb.android:lottie:4.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.f0ris.sweetalert:library:1.6.2'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+//    implementation platform('com.google.firebase:firebase-bom:33.0.0')
+    implementation 'com.google.firebase:firebase-auth:22.0.0'
+    implementation 'com.google.firebase:firebase-database:20.2.2'
+    implementation 'com.google.firebase:firebase-storage:20.2.0'
+    implementation 'com.google.android.gms:play-services-ads:22.1.0'
+
+    implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.9'
+    implementation libs.kotlin.stdlib.jdk7
+
+    implementation 'com.github.AnupKumarPanwar:ScratchView:1.9.1'
+    implementation 'com.karumi:dexter:6.2.3'
+
+    implementation 'com.kaopiz:kprogresshud:1.2.0'
+
+}

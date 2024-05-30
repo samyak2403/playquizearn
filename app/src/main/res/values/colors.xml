@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backg">#C8A8E9</color>
+    <color name="icecrem">#F4E7FB</color>
+    <color name="icecrem_w">#C3C7F3</color>
+    <color name="icecrem_ws">#3D405B</color>
+    <color name="your_status_bar_color">#C3C7F3</color>
+    <color name="colorPrimary">#432fbf</color>
+    <color name="colorTextPrimary">#ffffff</color>
+
+</resources>
